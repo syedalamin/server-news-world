@@ -17,7 +17,7 @@ app.get('/categoris', (req, res) => {
 
 app.get('/news', (req, res) => {
     res.send(news);
-});
+}); 
 
 app.get('/news/:id', (req, res) => {
     const id = req.params.id;
